@@ -23,7 +23,7 @@ const SectionTitleStyle = styled.div`
   }
 `;
 
-export default function SectionTittle({
+export default function SectionTitle({
   subheading = 'This is subheading',
   heading = 'This is heading',
 }) {

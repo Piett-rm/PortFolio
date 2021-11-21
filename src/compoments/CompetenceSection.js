@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import SectionTittle from './SectionTittle';
+import SectionTitle from './SectionTitle';
 import PText from './PText';
 import Button from './Button';
 
@@ -67,7 +67,7 @@ export default function CompetenceSection() {
     <CompetenceSectionStyle>
       <div className="container">
         <div className="competenceSection__left">
-          <SectionTittle
+          <SectionTitle
             heading="Mes compétences"
             subheading="Pour voir toutes mes compétences de mes 2 années"
           />
