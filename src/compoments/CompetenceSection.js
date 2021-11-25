@@ -72,11 +72,14 @@ export default function CompetenceSection() {
             subheading="Pour voir toutes mes compétences de mes 2 années"
           />
           <PText>
-            Durant mes 2 année j'ai pu apprendre beaucoup de compétences, voir
-            tableau
+            Durant mes 2 années, j'ai pu acquérir beaucoup de compétences que
+            nous pouvons voir avec le tableau
           </PText>
           <div className="competenceSection__buttons">
-            <Button btnLink="Competences" btnText="Mes competences" />
+            <Button
+              btnLink="/Competences"
+              btnText="Le tableau de mes compétences"
+            />
           </div>
         </div>
       </div>

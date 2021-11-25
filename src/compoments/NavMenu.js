@@ -129,7 +129,7 @@ export default function NavMenu() {
             onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
-            Projects
+            Projets
           </NavLink>
         </li>
         <li>
@@ -152,6 +152,17 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Contact
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/Stages"
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Stages
           </NavLink>
         </li>
       </ul>

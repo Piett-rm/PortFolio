@@ -8,11 +8,11 @@ const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-    --dark-bg: #edf2f3;
-    --gray-1: #BCB4B4;
-    --deep-dark: #c7e5e8;
-    --gray-2: #363636;
-    --white: #33d4ec;
+    --dark-bg: #E09E50;
+    --gray-1: #E8ECEB;
+    --deep-dark: #2D3E4E;
+    --gray-2: #8CBDB9;
+    --white: white;
     --black: black;
   }
 

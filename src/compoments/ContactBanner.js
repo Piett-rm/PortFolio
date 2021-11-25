@@ -27,14 +27,9 @@ export default function contactBanner() {
     <ContactBannerStyles>
       <div className="container">
         <div className="contactBanner__wrapper">
-          <PText>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-            earum eius est eum ex exercitationem fuga fugiat harum ipsa, laborum
-            minima necessitatibus nihil obcaecati odit optio perferendis quia
-            saepe unde!
-          </PText>
-          <h3 className="contactBanner__heading">let me help you</h3>
-          <Button btnText="Contact Now" btnLink="/contacts" />
+          <PText>Si vous voulez me contacter, appuyez sur ce bouton</PText>
+          {/* <h3 className="contactBanner__heading">Contactez moi</h3> */}
+          <Button btnText="Contactez moi" btnLink="/contacts" />
         </div>
       </div>
     </ContactBannerStyles>

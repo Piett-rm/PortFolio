@@ -45,11 +45,11 @@ export default function ProjectItem({
 }) {
   return (
     <ProjectItemStyle>
-      <Link to="/Projects" className="projectItem__img">
+      <Link to={`/${title}`} className="projectItem__img">
         <img src={img} alt="project img" />
       </Link>
       <div className="projectItem__info">
-        <Link to="#">
+        <Link to={`/${title}`}>
           <h3 className="projectItem__title"> {title} </h3>
         </Link>
         <p className="projectItem__desc"> {desc} </p>

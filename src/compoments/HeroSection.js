@@ -149,18 +149,19 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>hello </span>
-            <span className="hero__name">hello </span>
+            <span>Bienvenu sur mon Portfolio</span>
+            <span className="hero__name">Rémi PETIT</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="Rémi PETIT" />
           </div>
           <div className="hero__info">
             <PText>
-              Je suis Rémi PETIT et je suis en deuxième année de BTS SIO option
-              SLAM{' '}
+              Je suis Rémi PETIT, étudiant en deuxième année de BTS SIO
+              (Services Informatiques aux Organisations), Option SLAM (Solutions
+              Logicielles et Application Métier) à EPSI à Lille
             </PText>
-            <Button btnLink="/Projects" btnText="See my work" />
+            <Button btnLink="/Projects" btnText="Pour voir mes projets" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">

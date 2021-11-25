@@ -11,7 +11,6 @@ const Home = () => (
     <CompetenceSection />
     <ProjectsSection />
     <ContactBanner />
-    <Footer />
   </div>
 );
 

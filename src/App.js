@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import Competence from './pages/Competence';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Footer from './compoments/Footer';
+import Symfony from './pages/Symfony';
+import Stages from './pages/Stages';
 
 export default function App() {
   return (
@@ -21,10 +24,17 @@ export default function App() {
           <Route path="/Contacts">
             <Contact />
           </Route>
+          <Route path="/Stages">
+            <Stages />
+          </Route>
+          <Route path="/Symfony">
+            <Symfony />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </>
   );

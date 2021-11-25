@@ -1,45 +1,43 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import SystemedInformationSante from '../images/SystemedInformationSante.png';
+import SymfonyImg from '../images/Symfony.jpg';
+import JeuEchec from '../images/jeuEchec.jpg';
+import ReactJs from '../images/ReactJs.png';
+import BlogVoyage from '../images/BlogVoyage.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Symfony',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      "Durant ma formation, j'ai pu avoir des cours sur symfony et créer une gestion des hopitaux",
+    img: SymfonyImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
-    desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+    name: 'JeuEchec',
+    desc: "Nous avons créer un jeu d'Echec",
+    img: JeuEchec,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'ReactJs',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      "J'ai pu faire de la veille technologique en apprenant le React Js en faisant ce PortFolio",
+    img: ReactJs,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: 'BlogVoyage',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      'Le blog de voyage nous a permis de nous apprendre le css et le html en première année ',
+    img: BlogVoyage,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+    name: 'SystemedInformationSante',
+    desc: 'Nous avons eu aussi la possibilité de faire un projet réseau',
+    img: SystemedInformationSante,
   },
 ];
 
