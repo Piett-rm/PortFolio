@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import GLPI from '../assets/images/ticketGLPI.png';
 import CompetenceProjectSection from '../compoments/CompetenceProjectSection';
-import Ftechnique from '../assets/images/ficheTechniqueHopital.png';
-import Planification from '../assets/images/planification.png';
-
 const StagesStyle = styled.div`
   margin: 10rem 0;
 `;

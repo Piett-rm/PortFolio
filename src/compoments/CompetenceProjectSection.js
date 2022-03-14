@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
-import cavinimg from '../assets/images/cavinimg.jpg';
 
 const CompetenceSectionStyle = styled.div`
   padding: 10rem 0;
