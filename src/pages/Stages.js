@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import GLPI from '../assets/images/ticketGLPI.png';
 import CompetenceProjectSection from '../compoments/CompetenceProjectSection';
+
 const StagesStyle = styled.div`
   margin: 10rem 0;
 `;
