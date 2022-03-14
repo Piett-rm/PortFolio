@@ -149,7 +149,7 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Bienvenu sur mon Portfolio</span>
+            <span>Bienvenue sur mon Portfolio</span>
             <span className="hero__name">Rémi PETIT</span>
           </h1>
           <div className="hero__img">

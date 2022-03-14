@@ -8,6 +8,8 @@ import Projects from './pages/Projects';
 import Footer from './compoments/Footer';
 import Symfony from './pages/Symfony';
 import Stages from './pages/Stages';
+import JeuEchec from './pages/JeuEchec';
+import ReactJs from './pages/ReactJs';
 
 export default function App() {
   return (
@@ -29,6 +31,12 @@ export default function App() {
           </Route>
           <Route path="/Symfony">
             <Symfony />
+          </Route>
+          <Route path="/JeuEchec">
+            <JeuEchec />
+          </Route>
+          <Route path="/ReactJs">
+            <ReactJs />
           </Route>
           <Route path="/">
             <Home />

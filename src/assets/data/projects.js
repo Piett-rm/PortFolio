@@ -10,7 +10,7 @@ const projects = [
     id: uuidv4(),
     name: 'Symfony',
     desc:
-      "Durant ma formation, j'ai pu avoir des cours sur symfony et créer une gestion des hopitaux",
+      'Participer à l’évolution d’un site Web exploitant les données de l’organisation,Analyser les objectifs et les modalités d’organisation d’un projet, Planifier les activités',
     img: SymfonyImg,
   },
   {
