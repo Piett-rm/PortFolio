@@ -10,6 +10,9 @@ import Symfony from './pages/Symfony';
 import Stages from './pages/Stages';
 import JeuEchec from './pages/JeuEchec';
 import ReactJs from './pages/ReactJs';
+import Skill from './pages/Skill';
+import Veille from './pages/Veille';
+import ImageFullScreen from './compoments/ImageFullScreen';
 
 export default function App() {
   return (
@@ -35,9 +38,14 @@ export default function App() {
           <Route path="/JeuEchec">
             <JeuEchec />
           </Route>
+          <Route path="/Veille">
+            <Veille />
+          </Route>
           <Route path="/ReactJs">
             <ReactJs />
           </Route>
+          <Route path="/image" component={ImageFullScreen} />
+          <Route path="/Skill" component={Skill} />
           <Route path="/">
             <Home />
           </Route>

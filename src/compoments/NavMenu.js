@@ -20,6 +20,7 @@ const NavMenuStyles = styled.div`
       display: inline-block;
       border-radius: 8px;
       transition: 0.3s ease background-color;
+      font-size: 18px;
       &:hover {
         background-color: var(--deep-dark);
       }

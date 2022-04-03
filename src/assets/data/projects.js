@@ -2,8 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import SystemedInformationSante from '../images/SystemedInformationSante.png';
 import SymfonyImg from '../images/Symfony.jpg';
 import JeuEchec from '../images/jeuEchec.jpg';
-import ReactJs from '../images/ReactJs.png';
-import BlogVoyage from '../images/BlogVoyage.png';
+import Veille from '../images/Veille.png';
 
 const projects = [
   {
@@ -21,17 +20,9 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'ReactJs',
-    desc:
-      "J'ai pu faire de la veille technologique en apprenant le React Js en faisant ce PortFolio",
-    img: ReactJs,
-  },
-  {
-    id: uuidv4(),
-    name: 'BlogVoyage',
-    desc:
-      'Le blog de voyage nous a permis de nous apprendre le css et le html en première année ',
-    img: BlogVoyage,
+    name: 'Veille',
+    desc: 'Developpement d un outil de veille technologique ',
+    img: Veille,
   },
   {
     id: uuidv4(),

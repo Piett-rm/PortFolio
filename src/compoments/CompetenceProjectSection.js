@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
@@ -80,7 +81,15 @@ export default function CompetenceSection({
           <PText>{texte}</PText>
         </div>
         <div className="competenceSection__right">
-          <img src={img} alt="imgage de mon projet" />
+          <Link
+            to={{
+              pathname: '/image',
+              state: { img },
+            }}
+            key="lalal"
+          >
+            <img src={img} alt="imgage de mon projet" />
+          </Link>
         </div>
       </div>
     </CompetenceSectionStyle>
