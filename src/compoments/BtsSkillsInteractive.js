@@ -336,7 +336,7 @@ function BtsSkillsInteractive() {
                 />
                 <Link
                   to={{
-                    pathname: '/Skill',
+                    pathname: '/Competences',
                     state: 'test',
                   }}
                   key="lal"
@@ -422,7 +422,7 @@ function BtsSkillsInteractive() {
                 />
                 <Link
                   to={{
-                    pathname: '/',
+                    pathname: '/Competences',
                     state: skillsInfo[16],
                   }}
                   key="lal"
@@ -430,7 +430,7 @@ function BtsSkillsInteractive() {
                 />
                 <Link
                   to={{
-                    pathname: '/',
+                    pathname: '/Competences',
                     state: skillsInfo[17],
                   }}
                   key="lal"
