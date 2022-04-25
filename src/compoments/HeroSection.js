@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+// import HeroImg from '../assets/images/hero.png';
+// import HeroImg from '../assets/images/photo.png';
+import HeroImg from '../assets/images/photoeffets.jpg';
+
 import PText from './PText';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';

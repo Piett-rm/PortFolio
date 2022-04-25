@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Excel from '../assets/fichier-excel/Epreuve_E4-BTS-SIO-2022.xlsx';
+import Excel from '../assets/fichier-excel/6-Remi PETIT - Tableau de synthèse - Epreuve E4 - BTS SIO 2022.xlsx';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import BtsSkillsInteractive from '../compoments/BtsSkillsInteractive';
 

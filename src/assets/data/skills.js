@@ -18,6 +18,10 @@ import laragon from '../images/laragon.png';
 import gereridentite from '../images/gereridentite.png';
 import VeilleT from '../images/VeilleT.png';
 import maquette from '../images/maquette.png';
+import exp2stage from '../images/exp2stage.png';
+import certifSSL from '../images/certifSSL.png';
+import tailleImage from '../images/tailleImage.png';
+import newSiteDirexi from '../images/newSiteDirexi.png';
 
 const skills = [
   [
@@ -161,9 +165,20 @@ const skills = [
     {
       id: uuidv4(),
       nomDomaine: 'Développer la présence en ligne de l’organisation',
-      idee: 'Développer la présence en ligne de l’organisation',
-      descriptionCompetence: 'test',
-      screenCompetence: SymfonyTrello,
+      idee:
+        'Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques et Référencer les services en ligne de l’organisation et mesurer leur visibilité.',
+      descriptionCompetence:
+        'L’objectif est de remplacer le certificat avant la date l’expiration. L’enjeu est de tenir à jour les plateformes hébergées par les clients et d’assurer un niveau de sécurité. ',
+      screenCompetence: certifSSL,
+    },
+    {
+      id: uuidv4(),
+      nomDomaine: 'Développer la présence en ligne de l’organisation',
+      idee:
+        'Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques',
+      descriptionCompetence:
+        'Une de mes missions était de conteneuriser des applications et de réduire la taille des images docker. Les enjeux sont de moins consommer sur le cluster Kub (kubernetes). Il s’agit d’une économie d’échelle, ce qui permet de rendre le conteneur plus léger et de mettre plus de conteneur dans le cluster kub.',
+      screenCompetence: tailleImage,
     },
   ],
   [
@@ -275,9 +290,10 @@ const skills = [
       id: uuidv4(),
       nomDomaine:
         'Mettre à disposition des utilisateurs un service informatique',
-      idee: '',
-      descriptionCompetence: '',
-      screenCompetence: PlanifierTaches,
+      idee: 'Déployer un service',
+      descriptionCompetence:
+        'J ai pu déployer un nouveau conteneur pour le nouveau site sur le serveur de production afin qu il soit disponible sur le site. https://www.direxi.fr/',
+      screenCompetence: newSiteDirexi,
       lien: 'test ',
     },
   ],
@@ -329,9 +345,10 @@ const skills = [
     {
       id: uuidv4(),
       nomDomaine: 'Organiser son développement professionnel',
-      idee: 'Organiser son développement professionnel',
-      descriptionCompetence: 'test',
-      screenCompetence: SymfonyTrello,
+      idee: 'Gérer son identité professionnelle',
+      descriptionCompetence:
+        'Pour gérer mon identité et mes expérience j ai rajouté mon expérience  sur linkedin. Cela permet de mettre en avant ce que j ai pu faire et montrer mon expérience professionelle. ',
+      screenCompetence: exp2stage,
       screenProjet: ReactJS,
     },
   ],
