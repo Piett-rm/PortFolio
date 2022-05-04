@@ -6,15 +6,20 @@ const PSstyle = styled.div`
   margin: 0 auto;
   font-size: 1.8rem;
   line-height: 1.9rem;
+  .test {
+    color: #1d95adff;
+  }
+  color: black;
   @media only screen and (max-width: 768px) {
     font-size: 1.4rem;
   }
 `;
 
-export default function PText({ children }) {
+export default function PText({ children, hero = false }) {
   return (
     <PSstyle className="para">
-      <p>{children}</p>
+      {hero && <p className="test">{children}</p>}
+      {!hero && <p>{children}</p>}
     </PSstyle>
   );
 }

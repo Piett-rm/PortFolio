@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Excel from '../assets/fichier-excel/6-Remi PETIT - Tableau de synthèse - Epreuve E4 - BTS SIO 2022.xlsx';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import BtsSkillsInteractive from '../compoments/BtsSkillsInteractive';
 
@@ -21,28 +20,37 @@ const BtsSectionStyles = styled.div`
       float: right;
     }
   }
+  .divTitre {
+    margin-bottom: 1em;
+    .titre {
+      font-size: 3rem;
+      display: block;
+    }
+  }
 `;
 
 export default function Competence() {
   return (
-    // <div>
-    //   <div className="container">
-    //     <div className="competence__img">
-    //       <img src={CompetenceImg} alt="Compétence" />
-    //     </div>
-    //   </div>
-    // </div>
     <BtsSectionStyles>
       <div className="container">
-        <BtsSkillsInteractive />
-        <div className="lien-Excel">
-          <p className="lien-Excel-gauche">
-            <i className="bi bi-arrow-down" style={{ fontSize: 50 }} />
-          </p>
-          <a href={Excel} download className="lien-Excel-droite">
-            Fichier Excel complet
-          </a>
-        </div>
+        <>
+          <div className="divTitre">
+            <p className="titre">Tableau des Compétences interactif :</p>
+          </div>
+          <BtsSkillsInteractive />
+          <div className="lien-Excel">
+            <p className="lien-Excel-gauche">
+              <i className="bi bi-arrow-down" style={{ fontSize: 50 }} />
+            </p>
+            <a
+              href="https://www.dropbox.com/s/46k6gjazx9a484w/6-Remi%20PETIT%20-%20Tableau%20de%20synth%C3%A8se%20-%20Epreuve%20E4%20-%20BTS%20SIO%202022.5466309e.pdf?dl=0"
+              download
+              className="lien-Excel-droite"
+            >
+              Fichier Excel complet
+            </a>
+          </div>
+        </>
       </div>
     </BtsSectionStyles>
   );

@@ -6,7 +6,7 @@ import Competence from './pages/Competence';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Footer from './compoments/Footer';
-import Symfony from './pages/Symfony';
+import ProjetHopital from './pages/ProjetHopital';
 import Stages from './pages/Stages';
 import JeuEchec from './pages/JeuEchec';
 import ReactJs from './pages/ReactJs';
@@ -32,8 +32,8 @@ export default function App() {
           <Route path="/Stages">
             <Stages />
           </Route>
-          <Route path="/Symfony">
-            <Symfony />
+          <Route path="/ProjetHopital">
+            <ProjetHopital />
           </Route>
           <Route path="/JeuEchec">
             <JeuEchec />

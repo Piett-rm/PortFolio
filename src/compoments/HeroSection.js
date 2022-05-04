@@ -44,6 +44,9 @@ const HeroStyles = styled.div`
   .hero__info {
     margin-top: -18rem;
   }
+  .hero__info_text {
+    color: black;
+  }
   .hero__social,
   .hero__scrollDown {
     display: flex;
@@ -159,7 +162,7 @@ export default function HeroSection() {
             <img src={HeroImg} alt="Rémi PETIT" />
           </div>
           <div className="hero__info">
-            <PText>
+            <PText hero className="hero__info_text">
               Je suis Rémi PETIT, étudiant en deuxième année de BTS SIO
               (Services Informatiques aux Organisations), Option SLAM (Solutions
               Logicielles et Application Métier) à EPSI à Lille

@@ -16,7 +16,7 @@ export default function Veille() {
           sousTitre="Ma veille"
           texte="Grâce a Feedly et un outil de veille que j'ai developper, je peux réaliser ma veille.
           L'outil de veille que j'ai developpé me permet de chercher les informations que je souhaite et d'avoir les articles associés.
-          Ensuite Feedly me permet d'avoir des articles favoris. Je fais ma veille sur python car c'est un code court facile à comprendre.
+          Ensuite Feedly me permet d'avoir des articles favoris. Je fais ma veille sur react JS car c'est un langage que je vais pratiquer l'année prochaine en alternance.
           De plus Docker est une technologie qui permet de faciliter et automatiser le déploiement de services et applications. Je l'utilise pour mes projets.
           "
           img={VeilleT}

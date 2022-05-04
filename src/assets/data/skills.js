@@ -22,6 +22,7 @@ import exp2stage from '../images/exp2stage.png';
 import certifSSL from '../images/certifSSL.png';
 import tailleImage from '../images/tailleImage.png';
 import newSiteDirexi from '../images/newSiteDirexi.png';
+import mvc from '../images/mvc.png';
 
 const skills = [
   [
@@ -31,7 +32,7 @@ const skills = [
       idee:
         'Recenser et identifier les ressources numériques et vérifier les conditions de la continuité d un service informatique',
       descriptionCompetence:
-        'Pour recencer et identifier les ressources numériques et vérifier les continuité d un service. Durant notre formation en octobre 2021, ' +
+        'Pour recencer et identifier les ressources numériques et vérifier la continuité d un service. Durant notre formation en octobre 2021, ' +
         'nous devions installer un serveur de surveillance afin de surveiller notre serveur Web, notre routeur.',
       screenCompetence: Zabbix,
       telechargement: [
@@ -46,8 +47,8 @@ const skills = [
         'Mettre en place et vérifier les niveaux d’habilitation associés à un service',
       descriptionCompetence:
         '' +
-        'Pour mettre en place les habilitations à un service. J ai eu l occasion pour mon Projet Hopital de faire un niveau d habiliation Administratif ' +
-        'Il permet d avoir d autre droit que les infirmiers. Comme rajouter des stocks de vaccins ou prevoir un rendez-vous ',
+        'Pour mettre en place les habilitations à un service. J ai eu l occasion pour mon Projet Hopital de faire un niveau d habilitation Administratif ' +
+        'Il permet d avoir d autre droit que les infirmiers. Comme rajouter des stocks de vaccins ou prévoir un rendez-vous ',
       screenCompetence: Habilitation,
     },
     {
@@ -55,8 +56,8 @@ const skills = [
       nomDomaine: 'Gérer le patrimoine informatique',
       idee: 'Gérer des sauvegardes',
       descriptionCompetence:
-        'Durant notre projet de BTS Hopital, nous avons mis en place un script de Sauvegarde base de donnée. \n\n' +
-        'Il permet de sauvegarder la base de donnée tout les jours à 2h du matin car le trafique sur l application est plus calme. ',
+        'Durant notre projet de BTS Hopital, nous avons mis en place un script de Sauvegarde base de données. \n\n' +
+        'Il permet de sauvegarder la base de données tous les jours à 2h du matin car le trafic sur l application est plus calme. ',
       screenCompetence: ScriptSauvegardeDB,
       telechargement: [
         'Sauvegardes',
@@ -81,9 +82,18 @@ const skills = [
       idee:
         'Exploiter des référentiels, normes et standards adoptés par le prestataire informatique',
       descriptionCompetence:
-        'Durant mon second stage, j ai eu l occasion référentiels, normes et standards adoptés par l entreprise. ' +
-        'Pour developper une application, il fallait au maximun developper sans commentaire. De plus il fallait un developpement avec des variables en anglais',
+        'Durant mon second stage, j ai eu des référentiels, normes et standards adoptés par l entreprise à respecter. ' +
+        'Pour développer une application, il fallait au maximum  developper sans commentaire. De plus il fallait un développement avec des variables en anglais',
       screenCompetence: CodeSansCommentaire,
+    },
+    {
+      id: uuidv4(),
+      nomDomaine: 'Gérer le patrimoine informatique',
+      idee:
+        'Exploiter des référentiels, normes et standards adoptés par le prestataire informatique',
+      descriptionCompetence:
+        'De plus j ai utilisé la norme MVC "model views controler" pour ma mission extranet',
+      screenCompetence: mvc,
     },
   ],
   [
@@ -109,7 +119,7 @@ const skills = [
         'Répondre aux incidents et aux demandes d’assistance et d’évolution',
       idee: 'Collecter, suivre et orienter des demandes ',
       descriptionCompetence:
-        'Durant mon premier stage du 26 avril au 31 juillet 2021, j ai eu l occasion d orienter des demander et de les suivre en tant que Technicien HelpDesk. J ai utilise le gestionnaire de taches GLPI (Gestionnaire Libre de Parc Informatique)',
+        'Durant mon premier stage du 26 avril au 31 juillet 2021, j ai eu l occasion d orienter des demander et de les suivre en tant que Technicien HelpDesk. J ai utilisé le gestionnaire de taches GLPI (Gestionnaire Libre de Parc Informatique)',
       screenCompetence: TicketGLPI,
     },
     {
@@ -130,7 +140,7 @@ const skills = [
         'Répondre aux incidents et aux demandes d’assistance et d’évolution',
       idee: 'Traiter des demandes concernant les applications',
       descriptionCompetence:
-        'Au cours de ma stage j ai pu traiter des demandes concernant des applications.' +
+        'Au cours de mon stage j ai pu traiter des demandes concernant des applications.' +
         'Mon maitre de stage m a demandé de renouveler le certificat SSL d’un site d’un client pour remplacer ce certificat avant la date l’expiration.Un certificat SSL est un certificat électronique qui permet authentifier l’identité d’un site' +
         'Web et permet une connexion chiffrée. SSL signifie « Secure Sockets Layer ». ',
       screenCompetence: TaiterDemandeApplications,
@@ -156,9 +166,11 @@ const skills = [
     {
       id: uuidv4(),
       nomDomaine: 'Développer la présence en ligne de l’organisation',
-      idee: 'Développer la présence en ligne de l’organisation',
-      descriptionCompetence: 'test',
-      screenCompetence: SymfonyTrello,
+      idee:
+        'Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques',
+      descriptionCompetence:
+        'Durant mon 1er stage, je devais résoudre les incidents et demandes dans un temps imparti car Extern IT a un Service Level Agreement (SLA). Il s agit d’un contrat par le prestataire informatique qui s engage à fournir un ensemble de services à un ou plusieurs clients et de résoudre des incidents ou demande dans un temps imparti. ',
+      screenCompetence: TicketGLPI,
     },
   ],
   [
@@ -177,7 +189,7 @@ const skills = [
       idee:
         'Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques',
       descriptionCompetence:
-        'Une de mes missions était de conteneuriser des applications et de réduire la taille des images docker. Les enjeux sont de moins consommer sur le cluster Kub (kubernetes). Il s’agit d’une économie d’échelle, ce qui permet de rendre le conteneur plus léger et de mettre plus de conteneur dans le cluster kub.',
+        'Une de mes missions de mon second stage, était de conteneuriser des applications et de réduire la taille des images docker. Les enjeux sont de moins consommer sur le cluster Kub (kubernetes). Il s’agit d’une économie d’échelle, ce qui permet de rendre le conteneur plus léger et de mettre plus de conteneurs dans le cluster kub.',
       screenCompetence: tailleImage,
     },
   ],
@@ -188,7 +200,7 @@ const skills = [
       idee:
         'Analyser les objectifs et les modalités d’organisation d’un projet',
       descriptionCompetence:
-        'Lors de ma formation, j ai pu analyser un document et extraire les parties prenantes du projet, les besoins, et une reponse technique aux besoins  ',
+        'Lors de ma formation, j ai pu analyser un document et extraire les parties prenantes du projet, les besoins, et une réponse technique aux besoins.  ',
       screenCompetence: BesoinReponseTechnique,
       telechargement: [
         'besoin',
@@ -203,7 +215,7 @@ const skills = [
       descriptionCompetence:
         'Pour évaluer les indicateurs de suivi d’un projet et analyser les écarts,  nous avons utilisé Project Libre, ce logiciel  est un outil open source de planification de projet .' +
         'Nous l avons utilisé dans le cadre d un projet imaginaire. Nous avons planifié les activités et les tâches.' +
-        ' Grâce au logiciel, nous pouvions facilement voir le chemin critque d un projet et les ecarts possible. ',
+        ' Grâce au logiciel, nous pouvions facilement voir le chemin critique d un projet et les écarts possible. ',
       screenCompetence: EvaluerAnalyser,
     },
   ],
@@ -223,13 +235,13 @@ const skills = [
       nomDomaine: 'Travailler en mode projet',
       idee: 'Planifier les activités',
       descriptionCompetence:
-        'Pour l’organisation un trello a été mis en place. Un trello est un site web où nous' +
+        'Pour l’organisation un trello a été mis en place. Un trello est un site web où nous ' +
         'mettons toutes les tâches à faire dans plusieurs catégories.' +
         'Nous avions 5 catégories : ' +
         ' - Backlog : le champ où toutes les tâches à faire sont mises.' +
         ' - Priorités : champ où toutes les tâches à faire en priorités sont mises.' +
         ' - En cours : ce qui permet de voir le suivi de chaque opérateur pour une meilleure ' +
-        'répartition des tâches et ne pas travailler en doublon sur un même sujet.' +
+        'répartition des tâches et de ne pas travailler en doublon sur un même sujet.' +
         ' - A tester : la catégorie où nous mettons les tâches réalisées à tester.' +
         ' - Terminé : la catégorie où nous enregistrons les tâches terminées et testées.',
       screenCompetence: PlanifierTaches,
@@ -243,7 +255,7 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Réaliser les tests d’intégration et d’acceptation d’un service',
       descriptionCompetence:
-        'Pour le projet Hopital, nous avons fait des test pour tester la connectivité entre le front et la base de donnée, par exemple en ajoutant un patient',
+        'Pour le projet Hopital, nous avons fait des tests pour tester la connectivité entre le front et la base de données, par exemple en ajoutant un patient.',
       screenCompetence: Test,
       telechargement: [
         'Test intégration',
@@ -303,7 +315,7 @@ const skills = [
       nomDomaine: 'Organiser son développement professionnel',
       idee: 'Mettre en place son environnement d’apprentissage personnel',
       descriptionCompetence:
-        'Laragon, c est un serveur de développement web pour Windows.Il est installé sur mon ordinateur, ainsi que docker pour conteneurisé les applications et VS code pour developper',
+        'Laragon, c est un serveur de développement web pour Windows.Il est installé sur mon ordinateur, ainsi que docker pour conteneuriser les applications et VS code pour developper',
       screenCompetence: laragon,
     },
     {
@@ -312,10 +324,10 @@ const skills = [
       idee:
         'Mettre en œuvre des outils et stratégies de veille informationnelle ',
       descriptionCompetence:
-        'Grâce a Feedly et un outil de veille que j ai developper, je peux réaliser ma veille.' +
+        'Grâce a Feedly et un outil de veille que j ai developpé, je peux réaliser ma veille.' +
         "L'outil de veille que j'ai developpé me permet de chercher les informations que je souhaite et d'avoir les articles associés." +
-        "Ensuite Feedly me permet d'avoir des articles favoris. Je fais ma veille sur python car c'est un code court facile à comprendre." +
-        " De plus Docker est une technologie qui permet de faciliter et automatiser le déploiement de services et applications. Je l'utilise pour mes projets.",
+        "Ensuite Feedly me permet d'avoir des articles favoris. Je fais ma veille sur React Js car j'ai trouvé mon alternance et je vais utiliser ce langage." +
+        " De plus Docker est une technologie qui permet de faciliter et d automatiser le déploiement de services et applications. Je l'utilise pour mes projets.",
       screenCompetence: VeilleT,
     },
     {
@@ -323,7 +335,7 @@ const skills = [
       nomDomaine: 'Organiser son développement professionnel',
       idee: 'Gérer son identité professionnelle',
       descriptionCompetence:
-        'Pour gérer mon identité, j ai créé un compte linkedin qui permet de rechercher et afficher sa carrière.',
+        'Pour gérer mon identité, j ai créé un compte linkedin qui permet de rechercher des emplois ou alternace et d afficher ma carrière.',
       screenCompetence: gereridentite,
       telechargement: [
         'lien linkedin',
