@@ -23,6 +23,10 @@ import certifSSL from '../images/certifSSL.png';
 import tailleImage from '../images/tailleImage.png';
 import newSiteDirexi from '../images/newSiteDirexi.png';
 import mvc from '../images/mvc.png';
+import camping from '../images/camping.png';
+import InstallationGLPI from '../images/InstallationGLPI.png';
+import ocsInventory from '../images/ocsInventory.png';
+import stageProcedure from '../images/stageProcedure.png';
 
 const skills = [
   [
@@ -38,6 +42,18 @@ const skills = [
       telechargement: [
         'Installation Zabbix',
         'https://www.dropbox.com/s/uoiq6hn6udjbbd3/Zabbix.pdf?dl=0',
+      ],
+    },
+    {
+      id: uuidv4(),
+      nomDomaine: 'Gérer le patrimoine informatique',
+      idee: 'Recenser et identifier les ressources numériques',
+      descriptionCompetence:
+        'Pour recencer et identifier les ressources numériques nous avons installer OCS inventory et GLPI, ',
+      screenCompetence: ocsInventory,
+      telechargement: [
+        'Installation d OCS Inventory',
+        'https://www.dropbox.com/s/gd55iu94tyzz8zg/OCS.pdf?dl=0',
       ],
     },
     {
@@ -103,13 +119,12 @@ const skills = [
         'Répondre aux incidents et aux demandes d’assistance et d’évolution',
       idee: 'Traiter des demandes concernant les applications',
       descriptionCompetence:
-        'Au cours de ma formation j ai pu traiter des' +
-        'Deserunt culpa culpa nisi laborum cupidatat mollit id adipisicing labore quis et magna commodo.' +
-        'Cillum aliquip eu nulla culpa aliqua duis ullamco. Veniam pariatur sunt pariatur ipsum duis voluptate ipsum labore pariatur non amet. ' +
-        'Minim amet dolore tempor voluptate eiusmod laboris in nostrud.' +
-        'Cillum excepteur elit reprehenderit ut dolor velit nulla laborum esse minim adipisicing Lorem. Dolor quis irure in culpa pariatur incididunt' +
-        ' qui excepteur nostrud et nostrud proident adipisicing aliquip. Proident tempor anim exercitation est minim labore.',
-      screenCompetence: TaiterDemandeApplications,
+        'Pour traiter les demandes nous avons installer GLPI. Grace à GLPI nous pouvons traiter les demandes et incidents.',
+      screenCompetence: InstallationGLPI,
+      telechargement: [
+        'installation de GLPI',
+        'https://www.dropbox.com/s/gd55iu94tyzz8zg/OCS.pdf?dl=0',
+      ],
     },
   ],
   [
@@ -160,6 +175,15 @@ const skills = [
         'Charte graphique',
         'https://www.dropbox.com/s/bsx6o7o5p2ttrnk/Projet-vaccin.pdf?dl=0',
       ],
+    },
+    {
+      id: uuidv4(),
+      nomDomaine: 'Développer la présence en ligne de l’organisation',
+      idee:
+        'Participer à l évolution d un site Web exploitant les données de l organisation',
+      descriptionCompetence:
+        'Nous avons développé un site web pour un camping. Afin de rendre les données de l organisation accessible. Il nous permettait de réserver un chalet et d afficher ces caracteristiques. Il a été fait en PHP et avec une base de données MYSQL.',
+      screenCompetence: camping,
     },
   ],
   [
@@ -285,16 +309,29 @@ const skills = [
       screenCompetence: readmepouraiderAccompagner,
       telechargement: ['readme', 'https://github.com/Jflo02/SymfonyBtsProject'],
     },
+    {
+      id: uuidv4(),
+      nomDomaine:
+        'Mettre à disposition des utilisateurs un service informatique',
+      idee: 'Accompagner les utilisateurs dans la mise en place d’un service',
+      descriptionCompetence:
+        'Durant dans ma formation, j ai fait des procédures. Nous avons fait une fait une procédures pour installer zabbix. Qui est un outil de supervision.',
+      screenCompetence: Zabbix,
+      telechargement: [
+        'readme',
+        'https://www.dropbox.com/s/uoiq6hn6udjbbd3/Zabbix.pdf?dl=0',
+      ],
+    },
   ],
   [
     {
       id: uuidv4(),
       nomDomaine:
         'Mettre à disposition des utilisateurs un service informatique',
-      idee: '',
-      descriptionCompetence: '',
-      screenCompetence: PlanifierTaches,
-      lien: 'test ',
+      idee: 'Accompagner les utilisateurs dans la mise enplace d un service',
+      descriptionCompetence:
+        'Durant mon stage, j ai pu faire des procédures pour nous aider à résoudre les incidents ou demandes plus rapidement.',
+      screenCompetence: stageProcedure,
     },
   ],
   [
