@@ -35,7 +35,7 @@ export default function Competence() {
       <div className="container">
         <>
           <div className="divTitre">
-            <p className="titre">Tableau des Compétences interactif :</p>
+            <p className="titre">Tableau des compétences interactif :</p>
           </div>
           <BtsSkillsInteractive />
           <div className="lien-Excel">

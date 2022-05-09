@@ -27,6 +27,11 @@ import camping from '../images/camping.png';
 import InstallationGLPI from '../images/InstallationGLPI.png';
 import ocsInventory from '../images/ocsInventory.png';
 import stageProcedure from '../images/stageProcedure.png';
+import WireFrameCamping from '../images/WireFrame_camping.svg';
+import centreon from '../images/centreon.png';
+import trelloFormation from '../images/trelloFormation.png';
+import vlille from '../images/vlille.png';
+import readmeCamping from '../images/readmeCamping.png';
 
 const skills = [
   [
@@ -70,6 +75,19 @@ const skills = [
     {
       id: uuidv4(),
       nomDomaine: 'Gérer le patrimoine informatique',
+      idee:
+        'Mettre en place et vérifier les niveaux d’habilitation associés à un service',
+      descriptionCompetence:
+        'J ai mis en place le niveau d habilitation durant le projet camping. Un administrateur pouvait rajouter, modifier ou supprimer un chalet. A l inverse un client ne pouvait que consulter ou reserver.',
+      screenCompetence: WireFrameCamping,
+      telechargement: [
+        'Lien Github',
+        'https://github.com/Jflo02/projet-camping',
+      ],
+    },
+    {
+      id: uuidv4(),
+      nomDomaine: 'Gérer le patrimoine informatique',
       idee: 'Gérer des sauvegardes',
       descriptionCompetence:
         'Durant notre projet de BTS Hopital, nous avons mis en place un script de Sauvegarde base de données. \n\n' +
@@ -85,10 +103,11 @@ const skills = [
     {
       id: uuidv4(),
       nomDomaine: 'Gérer le patrimoine informatique',
-      idee: '',
+      idee:
+        'Vérifier les conditions de la continuité d un service informatique',
       descriptionCompetence:
-        'Minim sint ipsum magna consequat aliqua officia cillum adipisicing aliqua do in esse exercitation pariatur. Elit in minim proident amet.',
-      screenCompetence: SymfonyTrello,
+        'Durant mon stage, j ai pu faire de la supervision. J ai utilisé centreon pour voir si les routeurs ou les serveurs sont toujours fonctionnels.',
+      screenCompetence: centreon,
     },
   ],
   [
@@ -242,6 +261,14 @@ const skills = [
         ' Grâce au logiciel, nous pouvions facilement voir le chemin critique d un projet et les écarts possible. ',
       screenCompetence: EvaluerAnalyser,
     },
+    {
+      id: uuidv4(),
+      nomDomaine: 'Travailler en mode projet',
+      idee: 'Planifier les activités',
+      descriptionCompetence:
+        'Pour s organiser, nous avons utilisé des trellos. Afin que nous decoupons les taches pour mieux s organiser.',
+      screenCompetence: trelloFormation,
+    },
   ],
   [
     {
@@ -292,6 +319,16 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Déployer un service',
       descriptionCompetence:
+        'Pour un projet en javascript, nous avons deployé un conteneur sur le serveur Ionos que nous avons loué pour le rendre disponible.',
+      screenCompetence: vlille,
+      telechargement: ['Lien du site', 'http://lescopains.org/remi/'],
+    },
+    {
+      id: uuidv4(),
+      nomDomaine:
+        'Mettre à disposition des utilisateurs un service informatique',
+      idee: 'Déployer un service',
+      descriptionCompetence:
         'De plus pour le projet hopital, nous avons deployé en groupe un conteneur sur le serveur Ionos que nous avons loué. Pour ce faire nous devons faire la commande sur le screen et pour tester la connexion, nous pouvons utiliser postman pour envoyer des données.',
       screenCompetence: DeployerService,
       telechargement: [
@@ -318,9 +355,18 @@ const skills = [
         'Durant dans ma formation, j ai fait des procédures. Nous avons fait une fait une procédures pour installer zabbix. Qui est un outil de supervision.',
       screenCompetence: Zabbix,
       telechargement: [
-        'readme',
+        'Procedure d installation',
         'https://www.dropbox.com/s/uoiq6hn6udjbbd3/Zabbix.pdf?dl=0',
       ],
+    },
+    {
+      id: uuidv4(),
+      nomDomaine:
+        'Mettre à disposition des utilisateurs un service informatique',
+      idee: 'Accompagner les utilisateurs dans la mise en place d’un service',
+      descriptionCompetence:
+        'Pour le projet Camping, nous avons fait un read me pour expliquer le contenu du répertoire.',
+      screenCompetence: readmeCamping,
     },
   ],
   [

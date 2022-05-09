@@ -149,7 +149,7 @@ const BtsSkillsInteractiveStyle = styled.div`
               }
             }
             .red {
-              background-color: red;
+              background-color: #606060;
               border-bottom: 3px solid var(--gray-2);
             }
             a,
@@ -216,11 +216,11 @@ function BtsSkillsInteractive() {
                 />
                 <Link
                   to={{
-                    pathname: '/Competences',
-                    state: 'test',
+                    pathname: '/Skill',
+                    state: skillsInfo[1],
                   }}
                   key="lal"
-                  className="red"
+                  className="vert"
                 />
                 <Link
                   to={{

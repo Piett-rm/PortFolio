@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { SRLWrapper } from 'simple-react-lightbox';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
@@ -81,15 +81,9 @@ export default function CompetenceSection({
           <PText>{texte}</PText>
         </div>
         <div className="competenceSection__right">
-          <Link
-            to={{
-              pathname: '/image',
-              state: { img },
-            }}
-            key="lalal"
-          >
+          <SRLWrapper>
             <img src={img} alt="imgage de mon projet" />
-          </Link>
+          </SRLWrapper>
         </div>
       </div>
     </CompetenceSectionStyle>
