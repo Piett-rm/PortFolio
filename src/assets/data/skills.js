@@ -41,7 +41,7 @@ const skills = [
       idee:
         'Recenser et identifier les ressources numériques et vérifier les conditions de la continuité d un service informatique',
       descriptionCompetence:
-        'Pour recencer et identifier les ressources numériques et vérifier la continuité d un service. Durant notre formation en octobre 2021, ' +
+        'Pour recenser et identifier les ressources numériques et vérifier la continuité d un service. Durant notre formation en octobre 2021, ' +
         'nous devions installer un serveur de surveillance afin de surveiller notre serveur Web, notre routeur.',
       screenCompetence: Zabbix,
       telechargement: [
@@ -68,7 +68,7 @@ const skills = [
         'Mettre en place et vérifier les niveaux d’habilitation associés à un service',
       descriptionCompetence:
         '' +
-        'Pour mettre en place les habilitations à un service. J ai eu l occasion pour mon Projet Hopital de faire un niveau d habilitation Administratif ' +
+        'Pour mettre en place les habilitations à un service. J ai eu l occasion pour mon Projet Hopital de faire un niveau d habilitation administratif. ' +
         'Il permet d avoir d autre droit que les infirmiers. Comme rajouter des stocks de vaccins ou prévoir un rendez-vous ',
       screenCompetence: Habilitation,
     },
@@ -78,7 +78,7 @@ const skills = [
       idee:
         'Mettre en place et vérifier les niveaux d’habilitation associés à un service',
       descriptionCompetence:
-        'J ai mis en place le niveau d habilitation durant le projet camping. Un administrateur pouvait rajouter, modifier ou supprimer un chalet. A l inverse un client ne pouvait que consulter ou reserver.',
+        'J ai mis en place le niveau d habilitation durant le projet camping. Un administrateur pouvait rajouter, modifier ou supprimer un chalet. A l inverse un client ne pouvait que consulter ou réserver.',
       screenCompetence: WireFrameCamping,
       telechargement: [
         'Lien Github',
@@ -118,7 +118,7 @@ const skills = [
         'Exploiter des référentiels, normes et standards adoptés par le prestataire informatique',
       descriptionCompetence:
         'Durant mon second stage, j ai eu des référentiels, normes et standards adoptés par l entreprise à respecter. ' +
-        'Pour développer une application, il fallait au maximum  developper sans commentaire. De plus il fallait un développement avec des variables en anglais',
+        'Pour développer une application, il fallait au maximum  développer sans commentaire. De plus il fallait un développement avec des variables en anglais',
       screenCompetence: CodeSansCommentaire,
     },
     {
@@ -138,7 +138,7 @@ const skills = [
         'Répondre aux incidents et aux demandes d’assistance et d’évolution',
       idee: 'Traiter des demandes concernant les applications',
       descriptionCompetence:
-        'Pour traiter les demandes nous avons installer GLPI. Grace à GLPI nous pouvons traiter les demandes et incidents.',
+        'Pour traiter les demandes nous avons installé GLPI. Grace à GLPI nous pouvons traiter les demandes et incidents.',
       screenCompetence: InstallationGLPI,
       telechargement: [
         'installation de GLPI',
@@ -153,7 +153,7 @@ const skills = [
         'Répondre aux incidents et aux demandes d’assistance et d’évolution',
       idee: 'Collecter, suivre et orienter des demandes ',
       descriptionCompetence:
-        'Durant mon premier stage du 26 avril au 31 juillet 2021, j ai eu l occasion d orienter des demander et de les suivre en tant que Technicien HelpDesk. J ai utilisé le gestionnaire de taches GLPI (Gestionnaire Libre de Parc Informatique)',
+        'Durant mon premier stage du 26 avril au 31 juillet 2021, j ai eu l occasion d orienter des demandes et de les suivre en tant que Technicien HelpDesk. J ai utilisé le gestionnaire de tâches GLPI (Gestionnaire Libre de Parc Informatique)',
       screenCompetence: TicketGLPI,
     },
     {
@@ -188,7 +188,7 @@ const skills = [
       idee:
         'Participer à l évolution d un site Web exploitant les données de l organisation',
       descriptionCompetence:
-        'Nous avons participé à l evolution d un site web dans plusieurs projets comme le projet Hopital, la gestion des vaccins et voici une maquette d une page du projet gestion des vaccins.',
+        'Nous avons participé à l évolution d un site web dans plusieurs projets comme le projet Hopital, la gestion des vaccins et voici une maquette d une page du projet gestion des vaccins.',
       screenCompetence: maquette,
       telechargement: [
         'Charte graphique',
@@ -201,7 +201,7 @@ const skills = [
       idee:
         'Participer à l évolution d un site Web exploitant les données de l organisation',
       descriptionCompetence:
-        'Nous avons développé un site web pour un camping. Afin de rendre les données de l organisation accessible. Il nous permettait de réserver un chalet et d afficher ces caracteristiques. Il a été fait en PHP et avec une base de données MYSQL.',
+        'Nous avons développé un site web pour un camping. Afin de rendre les données de l organisation accessible. Il nous permettait de réserver un chalet et d afficher ces caractéristiques. Il a été fait en PHP et avec une base de données MYSQL.',
       screenCompetence: camping,
     },
   ],
@@ -266,7 +266,7 @@ const skills = [
       nomDomaine: 'Travailler en mode projet',
       idee: 'Planifier les activités',
       descriptionCompetence:
-        'Pour s organiser, nous avons utilisé des trellos. Afin que nous decoupons les taches pour mieux s organiser.',
+        'Pour s organiser, nous avons utilisé des trellos. Afin que nous decoupions les tâches pour mieux s organiser.',
       screenCompetence: trelloFormation,
     },
   ],
@@ -288,7 +288,7 @@ const skills = [
       descriptionCompetence:
         'Pour l’organisation un trello a été mis en place. Un trello est un site web où nous ' +
         'mettons toutes les tâches à faire dans plusieurs catégories.' +
-        'Nous avions 5 catégories : ' +
+        ' Nous avions 5 catégories : ' +
         ' - Backlog : le champ où toutes les tâches à faire sont mises.' +
         ' - Priorités : champ où toutes les tâches à faire en priorités sont mises.' +
         ' - En cours : ce qui permet de voir le suivi de chaque opérateur pour une meilleure ' +
@@ -306,7 +306,7 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Réaliser les tests d’intégration et d’acceptation d’un service',
       descriptionCompetence:
-        'Pour le projet Hopital, nous avons fait des tests pour tester la connectivité entre le front et la base de données, par exemple en ajoutant un patient.',
+        'Pour le projet Hôpital, nous avons fait des tests pour tester la connectivité entre le front et la base de données, par exemple en ajoutant un patient.',
       screenCompetence: Test,
       telechargement: [
         'Test intégration',
@@ -319,7 +319,7 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Déployer un service',
       descriptionCompetence:
-        'Pour un projet en javascript, nous avons deployé un conteneur sur le serveur Ionos que nous avons loué pour le rendre disponible.',
+        'Pour un projet en javascript, nous avons déployé un conteneur sur le serveur Ionos que nous avons loué pour le rendre disponible.',
       screenCompetence: vlille,
       telechargement: ['Lien du site', 'http://lescopains.org/remi/'],
     },
@@ -329,7 +329,7 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Déployer un service',
       descriptionCompetence:
-        'De plus pour le projet hopital, nous avons deployé en groupe un conteneur sur le serveur Ionos que nous avons loué. Pour ce faire nous devons faire la commande sur le screen et pour tester la connexion, nous pouvons utiliser postman pour envoyer des données.',
+        'De plus pour le projet hôpital, nous avons deployé en groupe un conteneur sur le serveur Ionos que nous avons loué. Pour ce faire nous devons faire la commande sur le screen et pour tester la connexion, nous pouvons utiliser postman pour envoyer des données.',
       screenCompetence: DeployerService,
       telechargement: [
         'procedure',
@@ -342,7 +342,7 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Accompagner les utilisateurs dans la mise en place d’un service',
       descriptionCompetence:
-        'Pour accompagner l installation du projet hopital, un read me a été mis en place, afin que tout le monde puisse l installer.',
+        'Pour accompagner l installation du projet hôpital, un readme a été mis en place, afin que tout le monde puisse l installer.',
       screenCompetence: readmepouraiderAccompagner,
       telechargement: ['readme', 'https://github.com/Jflo02/SymfonyBtsProject'],
     },
@@ -352,7 +352,7 @@ const skills = [
         'Mettre à disposition des utilisateurs un service informatique',
       idee: 'Accompagner les utilisateurs dans la mise en place d’un service',
       descriptionCompetence:
-        'Durant dans ma formation, j ai fait des procédures. Nous avons fait une fait une procédures pour installer zabbix. Qui est un outil de supervision.',
+        'Durant dans ma formation, j ai fait des procédures. Nous avons fait une procédures pour installer zabbix. Qui est un outil de supervision.',
       screenCompetence: Zabbix,
       telechargement: [
         'Procedure d installation',
@@ -398,7 +398,7 @@ const skills = [
       nomDomaine: 'Organiser son développement professionnel',
       idee: 'Mettre en place son environnement d’apprentissage personnel',
       descriptionCompetence:
-        'Laragon, c est un serveur de développement web pour Windows.Il est installé sur mon ordinateur, ainsi que docker pour conteneuriser les applications et VS code pour developper',
+        'Sur mon ordinateur j ai installé Laragon. C est un serveur de développement web pour Windows. Ainsi que docker pour conteneuriser les applications. J ai plusieurs environnement de développement comme VS code, Pycharm.',
       screenCompetence: laragon,
     },
     {
@@ -407,8 +407,8 @@ const skills = [
       idee:
         'Mettre en œuvre des outils et stratégies de veille informationnelle ',
       descriptionCompetence:
-        'Grâce a Feedly et un outil de veille que j ai developpé, je peux réaliser ma veille.' +
-        "L'outil de veille que j'ai developpé me permet de chercher les informations que je souhaite et d'avoir les articles associés." +
+        'Grâce a Feedly et un outil de veille que j ai développé, je peux réaliser ma veille.' +
+        "L'outil de veille que j'ai développé me permet de chercher les informations que je souhaite et d'avoir les articles associés." +
         "Ensuite Feedly me permet d'avoir des articles favoris. Je fais ma veille sur React Js car j'ai trouvé mon alternance et je vais utiliser ce langage." +
         " De plus Docker est une technologie qui permet de faciliter et d automatiser le déploiement de services et applications. Je l'utilise pour mes projets.",
       screenCompetence: VeilleT,
@@ -418,7 +418,7 @@ const skills = [
       nomDomaine: 'Organiser son développement professionnel',
       idee: 'Gérer son identité professionnelle',
       descriptionCompetence:
-        'Pour gérer mon identité, j ai créé un compte linkedin qui permet de rechercher des emplois ou alternace et d afficher ma carrière.',
+        'Pour gérer mon identité, j ai créé un compte linkedin qui permet de rechercher des emplois ou alternaces et d afficher mes competences.',
       screenCompetence: gereridentite,
       telechargement: [
         'lien linkedin',
