@@ -43,7 +43,7 @@ export default function Competence() {
               <i className="bi bi-arrow-down" style={{ fontSize: 50 }} />
             </p>
             <a
-              href="https://www.dropbox.com/s/zxiu9wthlp21lj8/6-Remi%20PETIT%20-%20Tableau%20de%20synth%C3%A8se%20-%20Epreuve%20E4%20-%20BTS%20SIO.pdf?dl=0"
+              href="https://www.dropbox.com/scl/fi/bwezyrxkesg3e5qrocl1e/6-Remi-PETIT-Tableau-de-synth-se-Epreuve-E4-BTS-SIO-1.xlsx?dl=0&rlkey=5360fdkbxw1351cqam7xn6v72"
               download
               className="lien-Excel-droite"
             >
